@@ -1,0 +1,39 @@
+.star {
+  width: 30px;
+  margin: auto;
+}
+
+.star::after,
+.star::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.star::after {
+  left: 75px;
+}
+.star::before {
+  right: -5px;
+}
+.white {
+  color: white;
+}
+
+.star.white::after,
+.star.white::before {
+  background-color: white;
+}
+.black {
+  color: #2C3E50;
+}
+.star.black::after,
+.star.black::before {
+  background-color: #2C3E50;
+}

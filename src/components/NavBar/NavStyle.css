@@ -1,0 +1,36 @@
+:root {
+  --main-color: #2c3e50;
+  --sec-color: #1abc9c;
+}
+
+.my-nav {
+  background-color: var(--main-color) !important;
+  padding-block: 25px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.my-nav .nav-item {
+}
+.my-nav a {
+  color: #fff !important;
+  font-weight: 700;
+  margin-inline: 7px;
+}
+.my-nav a:hover {
+  color: #fff;
+}
+.my-nav .navbar-toggler {
+  background-color: #fff;
+}
+.my-nav a.active {
+  background-color: var(--sec-color);
+  color: #fff !important;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}

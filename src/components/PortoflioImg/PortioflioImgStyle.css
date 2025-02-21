@@ -1,0 +1,19 @@
+.overlay {
+   background-color: #1abc9ce6;
+   opacity: 0;
+   top: 0;
+   left: 0;
+   transition: 0.5s;
+   color: #fff;
+   font-size: 100px;
+   -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+}
+.img-holder {
+   cursor: pointer;
+}
+.img-holder:hover .overlay {
+   opacity: 1;
+}
